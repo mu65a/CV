@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    
+}
+.logo 
+{
+  color: blue;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+
+span
+{
+    color: orange;
+    font-weight: bold;
+    padding-left: 5px;
+    font-weight: 20em;
+}
+
+
+header
+{
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    display: flex;
+   
+}
+.navbar a
+{
+   
+    text-decoration: none;
+    padding: 10px 28px;
+    border-bottom: 3px solid transparent;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.Contact 
+{
+    text-decoration: none;
+    padding: 10px 28px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.Contact:hover
+{
+    background-color: blueviolet;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+   
+}
+.navbar a:hover
+{
+    color: blue;
+    text-decoration: underline;
+    background-color: orange;
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 4em;
+    padding: 120px 12% 40px;
+    position: relative; 
+}
+.main-content
+{
+    flex: 1 1 55%;
+    max-width: 60%;
+    z-index: 2;
+}
+.main-content h2
+{
+    font-size: 42px;
+}
+
+.main-content h1
+{
+    font-size: 62px;
+    line-height: 1.2;
+
+}
+.main-content p
+{
+    font-size: 18px;
+    margin: 25px 0 30px;
+
+}
+strong
+{
+    color: orange;
+}
+.Btns
+{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.gitBtn
+{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.gitBtn:hover
+{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+.imge {
+    position: absolute; 
+    right: 12%;    
+    top: 5px; 
+    flex: 0 0 420px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 1;  
+}
+.imge img
+{
+   border-radius: 30%;
+    width: 200%;
+    height: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+footer{
+    background-color: orange;
+}
+footer h4
+{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 30px;
+}
+.social-icon a
+{ 
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+   
+}
+.About
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+
+}
+.about-content h2
+{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    top: 10px;
+
+  
+
+}
+.about-content p
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
